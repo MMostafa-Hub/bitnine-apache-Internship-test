@@ -51,8 +51,6 @@ int F_iterative_array(int n) {
 * Disadvantages:
 *	Slightly more complex than the other two implementations.
 */
-#include <stdio.h>
-
 int F_iterative_variables(int n) {
     if (n == 0) return 0;
     if (n == 1) return 1;
